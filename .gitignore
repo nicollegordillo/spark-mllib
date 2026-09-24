@@ -1,0 +1,22 @@
+﻿# Datos (descargar del INE, ver README)
+working_dir/*
+!working_dir/.gitkeep
+
+# Notebooks de laboratorios anteriores
+notebooks/Spark 01*
+notebooks/Spark 02*
+notebooks/Spark 03*
+notebooks/Ejemplos*
+notebooks/Spark_03_SparkML_Nicolle_Gordillo*
+notebooks/output/
+notebooks/output2/
+
+# Jupyter
+**/.ipynb_checkpoints/
+__pycache__/
+
+# Salidas de Spark
+*.parquet
+spark-warehouse/
+metastore_db/
+derby.log
